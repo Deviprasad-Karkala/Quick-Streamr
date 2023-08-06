@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #121215;
+    background-color: #e4f0fa;
     user-select: none;
     gap: 30px;
 }
@@ -33,19 +33,19 @@ header {
 }
 
 #dark {
-    color: rgb(125, 90, 242);
+    color: #ff7c7c;
     font-size: 25px;
     cursor: pointer;
 }
 
 h1 {
-    color: #dfe0fb;
+    color: #2b3c5b;
     font-size: 44px;
 
 }
 
 .highlights {
-    color: rgb(125, 90, 242);
+    color: #ff7c7c;
 }
 
 main {
@@ -56,7 +56,7 @@ main {
 }
 
 .card {
-    background-color: #18181c;
+    background-color: #e6eef8;
     border-radius: 24px;
     padding: 30px;
     height: 28vh;
@@ -71,7 +71,7 @@ main {
 p {
     margin-bottom: 20px;
     font-size: 20px;
-    color: #84849d;
+    color: #7a8aa3;
 }
 
 #SLink {
@@ -81,8 +81,8 @@ p {
     padding: 0 10px;
     height: 40px;
     width: 99.5%;
-    background-color: #2f2d36;
-    color: #dfe0fb;
+    background-color: #d3dee3;
+    color: #2b3c5b;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
@@ -94,8 +94,8 @@ p {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    color: #dfe0fb;
-    background: linear-gradient(160deg, rgb(145, 114, 247) 0%, rgb(104, 61, 247) 100%);
+    color: #2b3c5b;
+    background: linear-gradient(160deg, rgb(250, 177, 135) 0%, rgb(246, 117, 117) 100%);
     box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px 0px;
 }
 

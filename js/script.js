@@ -12,7 +12,9 @@ const link = document.querySelector('#SLink')
 toggle.addEventListener('click', function () {
     this.classList.toggle('bi-sun');
     if (this.classList.toggle('bi-moon')) {
+       
         body.style.background = '#e4f0fa'
+        body.style.transition = '0.5s'
         highlights.style.color = '#ff7c7c'
         highlights.style.transition = '1s'
         dark.style.color = '#ff7c7c'
@@ -20,7 +22,7 @@ toggle.addEventListener('click', function () {
         highlight.style.color = '#ff7c7c'
         highlight.style.transition = '1s'
         h1.style.color = '#2b3c5b'
-        h1.style.transition = '1s'
+        h1.style.transition = '0.5s'
         p.style.color = '#7a8aa3'
         p.style.transition = '1s'
         card.style.background = '#e6eef8'
@@ -31,17 +33,17 @@ toggle.addEventListener('click', function () {
         link.style.background = '#d3dee3'
         link.style.transition = '0.5s'
         link.style.color = '#2b3c5b'
-        body.style.transition = '0.5s'
+        
     }
     else {
         body.style.background = '#121215'
+        body.style.transition = '0.5s'
         highlights.style.color = 'rgb(125, 90, 242)'
         highlights.style.transition = '1s'
         highlight.style.color = 'rgb(125, 90, 242)'
         highlight.style.transition = '1s'
         dark.style.color = 'rgb(125, 90, 242)'
         dark.style.transition = '1s'
-        body.style.transition = '0.5s'
         h1.style.color = '#dfe0fb'
         h1.style.transition = '1s'
         p.style.color = '#84849d'
@@ -54,5 +56,7 @@ toggle.addEventListener('click', function () {
         link.style.background = '#2f2d36'
         link.style.color = '#dfe0fb'
         link.style.transition = '0.5s'
+
+   
     }
 })
